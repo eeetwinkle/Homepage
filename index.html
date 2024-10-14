@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" href="assets/star_ico.png" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="./css/common.css" />
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="./css/HomePage.css" />
+
+
+
+
+</head>
+
+<body class="flex-column">
+
+    <main class="homepage main">
+        <section class="hero_section">
+            <!-- Hero section with logo and navigation -->
+            <div class="content_wrapper">
+                <figure class="logo_container">
+                    <!-- Logo images -->
+                    <a href="https://github.com/eeetwinkle">
+                        <img class="logo_left" src="./assets/1664b26e4621f08fceb787e986f794d3.png" alt="alt text" />
+                    </a>
+                    <a href="https://t.me/eeetwinkle">
+                        <img class="logo_center" src="./assets/ea31eaf8b5e2c451335cd5a573cc7c14.png" alt="alt text" />
+                    </a>
+                    <a href="https://vk.com/eeetwinkle">
+                        <img class="logo_right" src="./assets/310e4bbeef1175092ea95b1716523c35.png" alt="alt text" />
+                    </a>
+                </figure>
+                <nav class="nav_menu">
+                    <!-- Main navigation menu -->
+                    <button class="about_btn">
+                        <!-- TODO -->
+                        ABOUT
+                    </button>
+                    <button class="gallery_btn">
+                        <!-- TODO -->
+                        GALERY
+                    </button>
+                    <button class="facts_btn">
+                        <!-- TODO -->
+                        FACTS
+                    </button>
+                </nav>
+            </div>
+        </section>
+
+        <section class="section2"></section>
+
+        <section class="photographer_profile_section">
+            <!-- Photographer profile and showcase -->
+            <div class="profile_content_wrapper">
+                <div class="photo_gallery">
+                    <img class="main_portrait" src="./assets/0e1946129c945cf4607d5ee066745c59.svg" alt="alt text" />
+                    <div class="secondary_photos">
+                        <img class="secondary_photo_1" src="./assets/d29d2e598abeff98c5afeb57df6f56aa.svg" alt="alt text" />
+                        <img class="secondary_photo_2" src="./assets/78748d000591ebf17273fefcc8ecc654.svg" alt="alt text" />
+                    </div>
+                </div>
+                <div class="photographer_name">
+                    <p class="first_name">ALYONA</p>
+                    <p class="last_name">Ermolaeva</p>
+                </div>
+                <a href="https://store.steampowered.com/app/413150/Stardew_Valley/">
+                    <img class="background_image" src="./assets/mili.gif" alt="alt text" />
+                </a>
+            </div>
+        </section>
+
+        <section class="introduction_area"><img class="image4" src="./assets/d5bf38ec567ae94c47b2e251368836ef.svg" alt="alt text" /></section>
+
+        <section class="introduction_section" id="introduction_section">
+            <!-- Student introduction and profile information -->
+            <div class="personal_info">
+                <p class="welcome_message">HELLO! </p>
+                <p class="brief_description">I&#x27;m Alyona, a second-year student at FEFU.</p>
+                <img class="student_photo" src="./assets/6043d2a4594120eb2d3b6a14890071d1.svg" alt="alt text" />
+            </div>
+            <img class="additional_details" src="./assets/4613c3e91b3a86d001d7148c5d2f13ad.png" alt="alt text" />
+        </section>
+
+        <script>
+            // Ожидание загрузки документа
+            document.addEventListener('DOMContentLoaded', function() {
+                // Находим кнопку по классу
+                const aboutButton = document.querySelector('.about_btn');
+
+                // Добавляем обработчик события на кнопку
+                aboutButton.addEventListener('click', function() {
+                    // Прокручиваем к целевой секции
+                    document.getElementById('introduction_section').scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+        </script>
+
+        <section class="section6"><img class="image7" src="./assets/a6b31b00164f853d29ac43fb3b4d7a3c.png" alt="alt text" /></section>
+
+
+        <section class="gallery_section" id="gallery_section">
+        <!-- Gallery showcase section -->
+        <div class="gallery_container">
+          <div class="gallery_header">
+            <h2 class="gallery_title">GALERY</h2>
+            <div class="date_selector">
+              <h2 class="date_selector_title"> </h2>
+
+            </div>
+          </div>
+          <div class="image_grid">
+            <!-- Grid of gallery images -->
+            <img class="gallery_img_1" src="/assets/a4782c57e400cc3b269d6b4493e59426.png" alt="alt text" />
+            <img class="gallery_img_2" src="/assets/bd3c4e6c21f807daa9a48a616436683b.png" alt="alt text" />
+            <img class="gallery_img_3" src="/assets/7864d44fb55f06a8297146372ab10630.png" alt="alt text" />
+            <img class="gallery_img_4" src="/assets/352f2b1436746546813534277080b0bb.png" alt="alt text" />
+            <img class="gallery_img_5" src="/assets/c9d4a02e8d1eb3fdf0976c76922a815d.png" alt="alt text" />
+          </div>
+        </div>
+      </section>
+        <script>
+            // Ожидание загрузки документа
+            document.addEventListener('DOMContentLoaded', function() {
+                // Находим кнопку по классу
+                const galleryButton = document.querySelector('.gallery_btn');
+
+                // Добавляем обработчик события на кнопку
+                galleryButton.addEventListener('click', function() {
+                    // Прокручиваем к целевой секции
+                    document.getElementById('gallery_section').scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+        </script>
+
+
+        <section class="personal_interests_section">
+        <!-- Personal interests and recommendations section -->
+        <div class="content_wrapper2" id="content_wrapper2">
+          <h2 class="section_heading">FACTS</h2>
+          <div class="interests_container">
+            <article class="favorite_game_article">
+                <h3 class="game_heading">My favorite computer game</h3>
+                <p class="game_description">My favorite game is stardew valley! This is a cute RPG game about life outside the city. In it you can develop in any area in which you like best - farming, animal husbandry, fishing, mining or fighting monsters. Or you can upgrade everything at once!</p>
+            </article>
+              <script>
+                  document.querySelector('.game_heading').addEventListener('click', function() {
+                    const description = document.querySelector('.game_description');
+                    if (description.style.display === 'none' || description.style.display === '') {
+                        description.style.display = 'flex'; // Изменяем на flex
+                    } else {
+                        description.style.display = 'none'; // Меняем обратно на none
+                    }
+                  });
+              </script>
+            <article class="telegram_channel_article">
+              <h3 class="telegram_heading">My telegram channel</h3>
+              <div class="telegram_info">
+                <p class="qr_instructions">You can join my telegram channel by scanning this qr code</p>
+                <img class="qr_code_image" src="/assets/e47f54408b5f0c025333dff1af7538db.png" alt="alt text" />
+              </div>
+            </article>
+              <script>
+                  document.querySelector('.telegram_heading').addEventListener('click', function() {
+                    const info = document.querySelector('.telegram_info');
+                    if (info.style.display === 'none' || info.style.display === '') {
+                        info.style.display = 'flex'; // Изменяем на flex
+                    } else {
+                        info.style.display = 'none'; // Меняем обратно на none
+                    }
+                  });
+              </script>
+            <div class="media_recommendations">
+              <h3 class="media_heading">My film and animation recommendations</h3>
+              <div class="movie_list_container">
+                <p class="movie_list_intro">Here are some of my favorite movies:</p>
+                <div class="movie_grid">
+                  <!-- Grid of recommended movies and animations -->
+                  <article class="movie_card">
+                    <h4 class="movie_title">Isle of Dogs</h4>
+                    <img class="movie_poster" src="/assets/6efb9fed52395384e3ab0b668e41cc6d.png" alt="alt text" />
+                  </article>
+                  <article class="movie_card1">
+                    <h4 class="movie_title1">The Grand Budapest Hotel</h4>
+                    <img class="movie_poster1" src="/assets/79aa93a5b4d818d1596dc61e89e3a463.png" alt="alt text" />
+                  </article>
+                  <article class="movie_card1">
+                    <h4 class="movie_title2"> Over the Garden Wall</h4>
+                    <img class="movie_poster1" src="/assets/9b84024cf7d1f02e492e4a8d83ea37b1.png" alt="alt text" />
+                  </article>
+                  <article class="movie_card2">
+                    <h4 class="movie_title3">Wolfwalkers</h4>
+                    <img class="movie_poster2" src="/assets/0a63db69e1649e9dfeaac45ef0168a18.png" alt="alt text" />
+                  </article>
+                  <article class="movie_card1">
+                    <h4 class="movie_title2">Ernest et Célestine</h4>
+                    <img class="movie_poster1" src="/assets/00ba55715cfef11716d326d1b4b2cebb.png" alt="alt text" />
+                  </article>
+                </div>
+              </div>
+            </div>
+              <script>
+                  document.querySelector('.media_heading').addEventListener('click', function() {
+                    const info = document.querySelector('.movie_list_container');
+                    if (info.style.display === 'none' || info.style.display === '') {
+                        info.style.display = 'flex'; // Изменяем на flex
+                    } else {
+                        info.style.display = 'none'; // Меняем обратно на none
+                    }
+                  });
+              </script>
+
+
+          </div>
+        </div>
+      </section>
+        <script>
+            // Ожидание загрузки документа
+            document.addEventListener('DOMContentLoaded', function() {
+                // Находим кнопку по классу
+                const factsButton = document.querySelector('.facts_btn');
+
+                // Добавляем обработчик события на кнопку
+                factsButton.addEventListener('click', function() {
+                    // Прокручиваем к целевой секции
+                    document.getElementById('content_wrapper2').scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+        </script>
+
+    </main>
+
+</body>
+
+</html>
